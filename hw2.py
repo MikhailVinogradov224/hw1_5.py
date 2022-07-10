@@ -1,0 +1,10 @@
+print('Введите координаты x1')
+x1 = int (input())
+print('Введите координаты x2')
+x2 = int (input())
+print('Введите координаты y1')
+y1 = int (input())
+print('Введите координаты y2')
+y2 = int (input())
+dist = ( (y1 - x1)**2 + (y2 - x2)**2 )**0.5
+print(dist)
